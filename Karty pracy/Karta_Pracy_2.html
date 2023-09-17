@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Zadanie 1
+
+        let a = prompt();
+        if(a % 3 == 0)
+        {
+            alert("Jest podzielna przez 3");
+        }
+        else
+        {
+            alert("Nie jest podzielna przez 3");
+        }
+
+        //Zadanie 2
+        
+        let b = prompt();
+        if(b >= 100 && b < 1000 && b % 17 == 0)
+        {
+            alert("jest trzycyfrowa i podzielna przez 17");
+        }
+        else
+        {
+            alert("Nie jest trzycyfrowa albo nie dzieli się przez 17");
+        }
+
+        //Zadanie 3
+
+        let wiek = prompt();
+        if(wiek >= 18)
+        {
+            alert("Możesz wejść na stronę ciulu");
+        }
+        else
+        {
+            alert("Nie masz jeszcze 18 lat więc wymiataj stąd");
+        }
+
+        //Zadanie 4
+
+        let limit = 20;
+        let waga = prompt();
+        if(waga >= limit)
+        {
+            alert("Nie możesz wjechać");
+        }
+        else
+        {
+            alert("OK możesz se wjechać");
+        }
+
+        //Zadanie 5
+
+        let c = prompt();
+        let d = prompt();
+        let e = prompt();
+        if(c < e && d > e || d < c && c > e)
+        {
+            alert("Yea");
+        }
+        else
+        {
+            alert("Naw");
+        }
+
+        //Zadanie 6
+
+        let f = prompt();
+        let p = prompt();
+        if((a ** p - a) % p == 0)
+        {
+            alert("Spełnia MTF");
+        }
+        else
+        {
+            alert("Nie spełnia MTF");
+        }
+
+        //Zadanie 7
+
+        let t = prompt();
+        let k = prompt();
+        let s = prompt();
+        if(3 * s -+- t >= k)
+        {
+            alert("Pokona ten dystans");
+        }
+        else
+        {
+            alert("Nie pokona tego dystansu");
+        }
+    </script>
+</body>
+</html>
