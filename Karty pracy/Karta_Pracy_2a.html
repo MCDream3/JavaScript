@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Zadanie 1
+
+        let a = prompt();
+        let b = prompt();
+        let suma = a+b;
+        if(suma % 2 == 0)
+        {
+            alert("Suma a i b jest parzysta");
+        }
+        else
+        {
+            alert("Suma a i b nie jest parzysta");
+        }
+
+        //Zadanie 2
+
+        let c = prompt();
+        let d = prompt();
+        let arytmetyczna = (c + d) / 2;
+        let geometryczna = Math.sqrt((c*d), 2);
+        if(arytmetyczna > geometryczna)
+        {
+            alert("Yup");
+        }
+        else
+        {
+            alert("Nah");
+        }
+
+        //Zadanie 3
+
+        let e = prompt();
+        let f = prompt();
+        let g = prompt();
+        if (e === f && f !== g) 
+        {
+            alert(`dwie liczby są sobie równe: ${e} i ${f}.`);
+        } 
+        else if (e === g && e !== f) 
+        {
+            alert(`dwie liczby są sobie równe: ${e} i ${g}`);
+        } 
+        else if (f === g && e !== f) 
+        {
+            alert(`dwie liczby są sobie równe: ${f} i ${g}.`);
+        }       
+        else 
+        {
+            alert("Nie ma dwóch równych liczb.");
+        }
+
+        //Zadanie 4
+
+        let h = prompt();
+        let i = prompt();
+        let j = prompt();
+        let k = prompt();
+        let najmniejsza = h;
+        if (i < najmniejsza)
+        {
+            najmniejsza = i;
+        }
+        if (j < najmniejsza) 
+        {
+            najmniejsza = j;
+        }
+        if (k < najmniejsza) 
+        {
+            najmniejsza = k;
+        }
+
+        alert("Najmniejsza liczba --> " + najmniejsza);
+
+        //Zadanie 5
+
+        let l = prompt();
+        let m = prompt();
+        let n = prompt();
+        if(l+m > n && m+n > l && n+l > m)
+        {
+            alert("spełniają nierówność trójkąta")
+        }
+        else
+        {
+            alert("nie spełniają nierówność trójkąta")
+        }
+
+        //Zadanie 6
+
+        let o = prompt();
+        let p = prompt();
+        let q = prompt();
+        if(q*q > o*o -+- p*p)
+        {
+            alert("trójkąt jest rozwartokątny")
+        }
+        else if(q*q == o*o -+- p*p)
+        {
+            alert("trójkąt jest prostokątny")
+        }
+        else
+        {
+            alert("trójkąt jest ostrokątny")
+        }
+    </script>
+</body>
+</html>
