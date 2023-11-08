@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.left-box{
+    width: 50%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+.left-box input{
+    height: 40px;
+    font-size: 30px;
+}
+.left-box button{
+    font-size: 30px;
+}
+.right-box{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    background-color: darkblue;
+    justify-content: center;
+    align-items: center;
+}
+.right-box span{
+    font-size: 50px;
+}
