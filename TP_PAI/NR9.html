@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="left-box">
+        <input type="text" id="kolor" name="kolor"><br>
+        <button onclick="funkcja()">Change color</button>
+    </div>
+
+    <div id="right-box">
+        <h1 id="napis" name="napis">Konnichiwa</h1>
+    </div>
+    
+    <script>
+        function funkcja()
+        {
+            document.getElementById("right-box").style.backgroundColor = document.getElementById("kolor").value;
+            document.getElementById("right-box").style.textDecorationColor = document.getElementById("napis").value;
+        }
+    </script>
+</body>
+</html>
